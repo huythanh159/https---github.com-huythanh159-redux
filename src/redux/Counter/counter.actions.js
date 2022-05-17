@@ -1,7 +1,8 @@
 import { INCREMENT, DECREMENT } from "./counter.types";
 export const increaseCounter = () => {
     return {
-        type: INCREMENT,
+        type: INCREMENT,//name
+        payload: { like: "buy milk", name: "thanh" }
     };
 };
 export const decreaseCounter = () => {

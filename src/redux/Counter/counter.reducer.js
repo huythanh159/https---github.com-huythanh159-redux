@@ -1,8 +1,10 @@
 import { INCREMENT, DECREMENT } from "./counter.types";
 const INITIAL_STATE = {
     count: 0,
+    name: "THANH",
+    id: 999
 };
-const reducer = (state = INITIAL_STATE, action) => {
+const counterReducer = (state = INITIAL_STATE, action) => {
     switch (action.type) {
         case INCREMENT:
             return {
@@ -16,4 +18,4 @@ const reducer = (state = INITIAL_STATE, action) => {
     }
 
 };
-export default reducer;
+export default counterReducer;
