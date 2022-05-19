@@ -2,7 +2,7 @@ import { INCREMENT, DECREMENT } from "./counter.types";
 const INITIAL_STATE = {
     count: 0,
     name: "THANH",
-    id: 999
+    id: 99999
 };
 const counterReducer = (state = INITIAL_STATE, action) => {
     switch (action.type) {
